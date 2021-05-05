@@ -1,9 +1,11 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native';
 
+import styles from './HomeScreen.styles';
+
 function HomeScreen({ navigation }) {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+    <View style={styles.container}>
       <Text>Home Screen</Text>
       <Button
         title="Press on"

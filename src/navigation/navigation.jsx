@@ -13,7 +13,7 @@ function AppNavigation({ token }) {
       return <AppScreens />;
     }
     return <AuthScreens token={token} />;
-  }, []);
+  }, [token]);
 
   return <NavigationContainer>{activeStack}</NavigationContainer>;
 }

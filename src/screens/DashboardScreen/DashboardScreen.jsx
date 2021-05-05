@@ -1,9 +1,11 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
+import styles from './DashboardScreen.styles';
+
 function DashboardScreen() {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+    <View style={styles.container}>
       <Text>Dashboard Screen</Text>
     </View>
   );

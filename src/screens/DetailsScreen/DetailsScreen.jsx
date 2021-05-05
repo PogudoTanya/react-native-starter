@@ -2,11 +2,13 @@ import React from 'react';
 import { View, Text, Button } from 'react-native';
 import PropTypes from 'prop-types';
 
+import styles from './DetailsScreen.styles';
+
 function DetailsScreen({ navigation, route }) {
   const { id, data } = route.params;
 
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+    <View style={styles.container}>
       <Text>Details Screen</Text>
       <Text>{id ? id : 'Ничего не пришло'}</Text>
       <Text>{data ? data : 'Ничего не пришло'}</Text>
