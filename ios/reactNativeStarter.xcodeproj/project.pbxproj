@@ -14,6 +14,7 @@
 		34FF788C89DE918CD5B43708 /* libPods-reactNativeStarter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD820750CE00BB7DC0B5F34 /* libPods-reactNativeStarter.a */; };
 		45504197A889F3EDD3AA5195 /* libPods-reactNativeStarter-reactNativeStarterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61203E069D77D7ECC1F3F3B8 /* libPods-reactNativeStarter-reactNativeStarterTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		CE8B297B26419F9000880C28 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = CE8B297A26419F9000880C28 /* fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		61203E069D77D7ECC1F3F3B8 /* libPods-reactNativeStarter-reactNativeStarterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeStarter-reactNativeStarterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67858265E35F73D28548A62E /* Pods-reactNativeStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeStarter.release.xcconfig"; path = "Target Support Files/Pods-reactNativeStarter/Pods-reactNativeStarter.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = reactNativeStarter/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE8B297A26419F9000880C28 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		CEC301542640204700C8C78B /* reactNativeStarter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "reactNativeStarter-Bridging-Header.h"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -118,6 +120,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				CE8B297A26419F9000880C28 /* fonts */,
 				13B07FAE1A68108700A75B9A /* reactNativeStarter */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* reactNativeStarterTests */,
@@ -245,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8B297B26419F9000880C28 /* fonts in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
