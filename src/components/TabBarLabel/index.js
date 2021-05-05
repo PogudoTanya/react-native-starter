@@ -1,1 +1,1 @@
-export {default} from './TabBarLabel';
+export { default } from './TabBarLabel';

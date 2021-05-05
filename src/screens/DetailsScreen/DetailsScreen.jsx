@@ -1,19 +1,19 @@
 import React from 'react';
-import {View, Text, Button} from 'react-native';
+import { View, Text, Button } from 'react-native';
 import PropTypes from 'prop-types';
 
-function DetailsScreen({navigation, route}) {
-  const {id, data} = route.params;
+function DetailsScreen({ navigation, route }) {
+  const { id, data } = route.params;
 
   return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>Details Screen</Text>
       <Text>{id ? id : 'Ничего не пришло'}</Text>
       <Text>{data ? data : 'Ничего не пришло'}</Text>
       <Button
         title="Go to Details... again"
         onPress={() =>
-          navigation.push('Details', {id: '393x', data: '25.01.20000'})
+          navigation.push('Details', { id: '393x', data: '25.01.20000' })
         }
       />
       <Button title="Go back" onPress={() => navigation.goBack()} />

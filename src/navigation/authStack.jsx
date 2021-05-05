@@ -1,23 +1,23 @@
 import React from 'react';
-import {createStackNavigator} from '@react-navigation/stack';
+import { createStackNavigator } from '@react-navigation/stack';
 import PropTypes from 'prop-types';
 
 import DetailsScreen from 'screens/DetailsScreen';
 import HomeScreen from 'screens/HomeScreen';
 
-function AppNavigation({token}) {
+function AppNavigation({ token }) {
   const Stack = createStackNavigator();
 
   return (
     <Stack.Navigator initialRouteName="Home">
       <Stack.Screen
         name="Home"
-        options={{title: 'Обзор'}}
+        options={{ title: 'Обзор' }}
         component={HomeScreen}
       />
       <Stack.Screen
         name="Details"
-        options={{title: 'Детали'}}
+        options={{ title: 'Детали' }}
         component={DetailsScreen}
       />
     </Stack.Navigator>

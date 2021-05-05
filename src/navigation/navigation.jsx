@@ -1,13 +1,13 @@
 import 'react-native-gesture-handler';
 
-import React, {useMemo} from 'react';
-import {NavigationContainer} from '@react-navigation/native';
+import React, { useMemo } from 'react';
+import { NavigationContainer } from '@react-navigation/native';
 import PropTypes from 'prop-types';
 
 import AuthScreens from './authStack';
 import AppScreens from './appStack';
 
-function AppNavigation({token}) {
+function AppNavigation({ token }) {
   const activeStack = useMemo(() => {
     if (token) {
       return <AppScreens />;

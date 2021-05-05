@@ -1,7 +1,7 @@
 import React from 'react';
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
-import {NAVBAR_ICONS} from 'helpers/constants';
+import { NAVBAR_ICONS } from 'helpers/constants';
 
 import DashboardScreen from 'screens/DashboardScreen';
 import HomeScreen from 'screens/HomeScreen';
@@ -25,7 +25,8 @@ function MoreStack() {
         style: {
           backgroundColor: colors.theme,
         },
-      }}>
+      }}
+    >
       <Tab.Screen
         name={NAVBAR_ICONS.MORE}
         component={HomeScreen}

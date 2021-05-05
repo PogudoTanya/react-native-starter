@@ -5,10 +5,11 @@ import Text from 'components/Text';
 
 import styles from './TabBarLabel.styles';
 
-function TabBarLabel({text, focused}) {
+function TabBarLabel({ text, focused }) {
   return (
     <Text
-      style={[styles.text, focused ? styles.activeText : styles.inActiveText]}>
+      style={[styles.text, focused ? styles.activeText : styles.inActiveText]}
+    >
       {text}
     </Text>
   );
