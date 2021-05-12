@@ -7,7 +7,7 @@ function App() {
   const [accessToken, setToken] = useState(null);
 
   useEffect(() => {
-    setToken(null);
+    setToken('null');
     setLoading(false);
   }, []);
 
