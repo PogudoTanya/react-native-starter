@@ -6,13 +6,13 @@ import GoogleIcon from '../../../assets/icons/google.svg';
 
 import styles from './GoogleButton.styles';
 
-function GoogleButton() {
+function GoogleButton({ handlePress }) {
   return (
     <Button
       style={styles.googleButton}
       icon={GoogleIcon}
       type="social"
-      onPress={() => {}}
+      onPress={handlePress}
     />
   );
 }
