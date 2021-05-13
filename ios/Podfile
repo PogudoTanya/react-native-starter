@@ -12,6 +12,11 @@ target 'reactNativeStarter' do
     :hermes_enabled => false
   )
 
+  pod 'GoogleSignIn', '~> 5.0.2'
+
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+
   target 'reactNativeStarterTests' do
     inherit! :complete
     # Pods for testing
